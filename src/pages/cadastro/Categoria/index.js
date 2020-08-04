@@ -27,7 +27,7 @@ function CadastroCatergoria() {
       );
     }
     useEffect(() =>{
-      const URL_TOP = 'http://localhost:8080/catergorias';
+      const URL_TOP = 'https://zancaflix.herokuapp.com/catergorias';
 
       fetch(URL_TOP)
         .then(async (respostaDoServidor) =>{
